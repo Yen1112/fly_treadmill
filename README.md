@@ -1,4 +1,4 @@
-# fly_treadmill# FicTrac-Controlled Stepper Motor on Raspberry Pi
+# FicTrac-Controlled Stepper Motor on Raspberry Pi
 
 This project uses a Raspberry Pi to control a stepper motor based on FicTrac's output from a fruit fly walking on a floating ball.
 
@@ -34,14 +34,6 @@ Make sure FicTrac is running and configured to output via UDP on port `5005`.
 python3 fictrac_motor_control.py
 ```
 
-## 📄 License
-MIT License
-
-## 📬 Contact
-For questions, reach out via [GitHub Issues](https://github.com/your-username/your-repo/issues).
-
----
-
-*Inspired by the study published in iScience:*
-> "The Song of the Fly: Courtship Song as a Signal for Direction Control in Virtual Environments."
+本程式碼用於輔助重現以下論文中的實驗設計：
+> *The Song of the Fly: Courtship Song as a Signal for Direction Control in Virtual Environments.*
 > [DOI: 10.1016/j.isci.2019.09.040](https://www.cell.com/iscience/fulltext/S2589-0042(19)30333-5)
